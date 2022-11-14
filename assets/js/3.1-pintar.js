@@ -1,9 +1,9 @@
 "use strict";
 
-const ele = document.getElementById("ele1");
+const element = document.getElementById("ele1");
 
-function pintar() {
-  ele.style.backgroundColor = "yellow";
+function pintar(e) {
+  e.style.backgroundColor = "yellow";
 }
 
-ele.addEventListener("click", pintar);
+element.addEventListener("click", pintar);
