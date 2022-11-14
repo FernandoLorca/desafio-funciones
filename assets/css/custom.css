@@ -7,6 +7,8 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 1.5;
+  display: flex;
+  justify-content: space-between;
 }
 
 *,
@@ -25,6 +27,11 @@ ul,
 p {
   margin: 0;
   padding: 0;
+}
+
+div {
+  width: 200px;
+  height: 200px;
 }
 
 /*# sourceMappingURL=custom.css.map */
